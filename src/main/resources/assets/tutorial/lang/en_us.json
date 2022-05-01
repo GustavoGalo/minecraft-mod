@@ -1,0 +1,17 @@
+{
+  "item.tutorial.common_iron_axe": "Machado de ferro comum",
+  "item.tutorial.common_iron_boots": "Botas de ferro comum",
+  "item.tutorial.common_iron_chestplate": "Peitoral de ferro comum",
+  "item.tutorial.common_iron_door": "Porta de ferro comum",
+  "item.tutorial.common_iron_helmet": "Capacete de ferro comum",
+  "item.tutorial.common_iron_hoe": "Enxada de ferro comum",
+  "item.tutorial.common_iron_horse_armor": "Armadura de cavalo de ferro comum",
+  "item.tutorial.common_iron_ingot": "Barra de ferro comum",
+  "item.tutorial.common_iron_leggings": "Calças de ferro comum",
+  "item.tutorial.common_iron_nugget": "Pepita de ferro comum",
+  "item.tutorial.common_iron_pickaxe": "Picareta de ferro comum",
+  "item.tutorial.common_iron_shovel": "Pá de ferro comum",
+  "item.tutorial.common_iron_sword": "Espada de ferro comum",
+  "item.tutorial.common_iron_raw_iron": "Ferro comum bruto",
+  "itemGroup.tutorial.general": "Ferro comum"
+}
