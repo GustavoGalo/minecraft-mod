@@ -1,4 +1,4 @@
-package com.examplemod.item.CommonIron;
+package com.examplemod.item.commonIron;
 
 import com.examplemod.item.Items;
 import net.minecraft.item.Item;

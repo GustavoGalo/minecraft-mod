@@ -1,7 +1,7 @@
 package com.examplemod;
 
 import com.examplemod.item.Items;
-import com.examplemod.item.CommonIron.CommonIronIngot;
+import com.examplemod.item.commonIron.CommonIronIngot;
 import com.examplemod.util.Recorder;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;

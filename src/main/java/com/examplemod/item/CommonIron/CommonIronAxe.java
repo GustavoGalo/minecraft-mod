@@ -1,7 +1,8 @@
-package com.examplemod.item.CommonIron;
+package com.examplemod.item.commonIron;
 
 import com.examplemod.item.Items;
-import com.examplemod.materials.CommonIronToolMaterial;
+import com.examplemod.material.CommonIronToolMaterial;
+
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;

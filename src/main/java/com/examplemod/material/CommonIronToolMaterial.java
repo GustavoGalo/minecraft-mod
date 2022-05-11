@@ -1,4 +1,4 @@
-package com.examplemod.materials;
+package com.examplemod.material;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;

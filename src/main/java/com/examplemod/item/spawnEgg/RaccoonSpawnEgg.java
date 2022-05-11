@@ -1,4 +1,4 @@
-package com.examplemod.item.CommonIron;
+package com.examplemod.item.spawnEgg;
 
 import com.examplemod.entity.Entities;
 import com.examplemod.item.Items;

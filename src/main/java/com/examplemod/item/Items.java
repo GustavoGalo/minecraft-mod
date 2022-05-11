@@ -1,7 +1,8 @@
 package com.examplemod.item;
 
 import com.examplemod.ExampleMod;
-import com.examplemod.item.CommonIron.*;
+import com.examplemod.item.commonIron.*;
+import com.examplemod.item.spawnEgg.RaccoonSpawnEgg;
 import com.examplemod.util.Logger;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
