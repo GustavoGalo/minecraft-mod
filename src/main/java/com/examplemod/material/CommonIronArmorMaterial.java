@@ -1,7 +1,6 @@
 package com.examplemod.material;
 
 import com.examplemod.item.commonIron.CommonIronIngot;
-
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;

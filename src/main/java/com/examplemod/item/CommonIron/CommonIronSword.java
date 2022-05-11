@@ -2,7 +2,6 @@ package com.examplemod.item.commonIron;
 
 import com.examplemod.item.Items;
 import com.examplemod.material.CommonIronToolMaterial;
-
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
