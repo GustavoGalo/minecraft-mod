@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "examplemod:block/heated_reinforced_iron_block"
+  }
+}

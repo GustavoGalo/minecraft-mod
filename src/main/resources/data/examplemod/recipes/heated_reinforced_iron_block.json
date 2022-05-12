@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "examplemod:raw_reinforced_iron_block"
+  },
+  "result": "examplemod:heated_reinforced_iron_block",
+  "experiencie": 5.6,
+  "cookingtime": 1600
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "examplemod:reinforced_iron_ingot"
+  },
+  "result": "examplemod:refined_iron_ingot",
+  "experiencie": 0.7,
+  "cookingtime": 200
+}

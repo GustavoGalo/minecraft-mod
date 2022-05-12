@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:common_iron_block"
+    }
+  ],
+  "result": {
+    "item": "examplemod:common_iron_ingot",
+    "count": 9
+  }
+}

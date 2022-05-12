@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "IBI",
+    "CIC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "B": {
+      "item": "examplemod:common_iron_block"
+    }
+  },
+  "result": {
+    "item": "examplemod:raw_reinforced_iron_block",
+    "count": 1
+  }
+}

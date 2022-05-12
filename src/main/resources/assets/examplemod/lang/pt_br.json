@@ -1,5 +1,6 @@
 {
   "itemGroup.examplemod.group": "Example Mod",
+
   "item.examplemod.common_iron_axe": "Machado de ferro comum",
   "item.examplemod.common_iron_boots": "Botas de ferro comum",
   "item.examplemod.common_iron_chestplate": "Peitoral de ferro comum",
@@ -7,12 +8,23 @@
   "item.examplemod.common_iron_helmet": "Capacete de ferro comum",
   "item.examplemod.common_iron_hoe": "Enxada de ferro comum",
   "item.examplemod.common_iron_horse_armor": "Armadura de cavalo de ferro comum",
-  "item.examplemod.common_iron_ingot": "Barra de ferro comum",
   "item.examplemod.common_iron_leggings": "Calças de ferro comum",
   "item.examplemod.common_iron_nugget": "Pepita de ferro comum",
   "item.examplemod.common_iron_pickaxe": "Picareta de ferro comum",
   "item.examplemod.common_iron_shovel": "Pá de ferro comum",
   "item.examplemod.common_iron_sword": "Espada de ferro comum",
   "item.examplemod.common_iron_raw_iron": "Ferro comum bruto",
-  "item.examplemod.raccoon_spawn_egg": "Ovo gerador de Guaxinim"
+
+  "item.examplemod.common_iron_ingot": "Barra de ferro comum",
+  "item.examplemod.reinforced_iron_ingot": "Barra de ferro reforçada",
+  "item.examplemod.refined_iron_ingot": "Barra de ferro refinada",
+
+  "item.examplemod.raccoon_spawn_egg": "Ovo gerador de Guaxinim",
+
+  "block.examplemod.common_iron_block": "Bloco de ferro comum",
+  "block.examplemod.raw_reinforced_iron_block": "Bloco de ferro reforçado cru",
+  "block.examplemod.heated_reinforced_iron_block": "Bloco de ferro reforçado aquecido",
+  "block.examplemod.reinforced_iron_block": "Bloco de ferro reforçado",
+
+  "block.examplemod.heated_reinforced_iron_block.tooltip": "Cuidado, está quente!"
 }

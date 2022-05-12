@@ -8,7 +8,7 @@ import net.minecraft.item.ToolMaterial;
 
 public class CommonIronPickaxe extends PickaxeItem {
 
-    public static final CommonIronPickaxe INSTANCE = new CommonIronPickaxe(CommonIronToolMaterial.INSTANCE, 5, 5.0F, Items.SETTINGS);
+    public static final CommonIronPickaxe INSTANCE = new CommonIronPickaxe(CommonIronToolMaterial.INSTANCE, 5, 5.0F, Items.SETTINGS.apply(1));
 
     private CommonIronPickaxe(ToolMaterial material, int attackDamage, float attackSpeed, Item.Settings settings) {
         super(material,attackDamage, attackDamage, settings);

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "examplemod:common_iron_block",
+    "examplemod:heated_reinforced_iron_block",
+    "examplemod:raw_reinforced_iron_block",
+    "examplemod:reinforced_iron_block"
+  ]
+}

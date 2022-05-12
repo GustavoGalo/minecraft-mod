@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "examplemod:block/heated_reinforced_iron_block" }
+  }
+}

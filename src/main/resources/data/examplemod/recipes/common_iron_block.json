@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "examplemod:common_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "examplemod:common_iron_block",
+    "count": 1
+  }
+}

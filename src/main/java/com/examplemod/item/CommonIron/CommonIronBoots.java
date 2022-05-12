@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 
 public class CommonIronBoots extends ArmorItem {
 
-    public static final CommonIronBoots INSTANCE = new CommonIronBoots(CommonIronArmorMaterial.INSTANCE, EquipmentSlot.FEET, Items.SETTINGS);
+    public static final CommonIronBoots INSTANCE = new CommonIronBoots(CommonIronArmorMaterial.INSTANCE, EquipmentSlot.FEET, Items.SETTINGS.apply(1));
 
     private CommonIronBoots(ArmorMaterial armorMaterial, EquipmentSlot equipmentSlot, Item.Settings settings) {
         super(armorMaterial, equipmentSlot, settings);

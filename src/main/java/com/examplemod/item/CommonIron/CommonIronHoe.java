@@ -8,7 +8,7 @@ import net.minecraft.item.ToolMaterial;
 
 public class CommonIronHoe extends HoeItem {
 
-    public static final CommonIronHoe INSTANCE = new CommonIronHoe(CommonIronToolMaterial.INSTANCE, 5, 5.0F, Items.SETTINGS);
+    public static final CommonIronHoe INSTANCE = new CommonIronHoe(CommonIronToolMaterial.INSTANCE, 5, 5.0F, Items.SETTINGS.apply(1));
 
     private CommonIronHoe(ToolMaterial material, int attackDamage, float attackSpeed, Item.Settings settings) {
         super(material,attackDamage, attackDamage, settings);

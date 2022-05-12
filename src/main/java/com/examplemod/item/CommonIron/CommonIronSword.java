@@ -8,7 +8,7 @@ import net.minecraft.item.ToolMaterial;
 
 public class CommonIronSword extends SwordItem {
 
-    public static final CommonIronSword INSTANCE = new CommonIronSword(CommonIronToolMaterial.INSTANCE, 5, 5.0F, Items.SETTINGS);
+    public static final CommonIronSword INSTANCE = new CommonIronSword(CommonIronToolMaterial.INSTANCE, 5, 5.0F, Items.SETTINGS.apply(1));
 
     private CommonIronSword(ToolMaterial material, int attackDamage, float attackSpeed, Item.Settings settings) {
         super(material,attackDamage, attackDamage, settings);

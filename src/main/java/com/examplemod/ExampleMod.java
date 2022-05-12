@@ -1,5 +1,6 @@
 package com.examplemod;
 
+import com.examplemod.block.Blocks;
 import com.examplemod.item.Items;
 import com.examplemod.item.commonIron.CommonIronIngot;
 import com.examplemod.util.Recorder;
@@ -19,6 +20,7 @@ public class ExampleMod implements ModInitializer {
 	public void onInitialize() {
 
 		Items.registerAll();
+		Blocks.registerAll();
 		Recorder.attributes();
 		GeckoLib.initialize();
 	}
