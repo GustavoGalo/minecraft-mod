@@ -34,7 +34,7 @@ public class Items {
 		registerItem("common_iron_sword", CommonIronSword.INSTANCE);
 		registerItem("raccoon_spawn_egg", RaccoonSpawnEgg.INSTANCE);
         
-		Logger.loaded(Items.class.getName());
+		Logger.loaded(Items.class.getSimpleName());
     }
 
 }

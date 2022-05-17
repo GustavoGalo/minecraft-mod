@@ -32,7 +32,7 @@ public class Entities {
     public static void registerAll() {
 		registerEntity("raccoon", RACCOON, RaccoonRenderer::new);
 
-		Logger.loaded(Entities.class.getName());
+		Logger.loaded(Entities.class.getSimpleName());
     }
     
 }

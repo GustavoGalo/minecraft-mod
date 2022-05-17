@@ -1,4 +1,4 @@
-package com.examplemod.events;
+package com.examplemod.event.custom;
 
 import com.examplemod.item.reinforcedIron.ReinforcedIronIngot;
 import net.fabricmc.fabric.api.event.player.UseItemCallback;

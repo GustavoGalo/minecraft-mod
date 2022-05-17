@@ -33,7 +33,7 @@ public class Blocks {
         registerBlock("raw_reinforced_iron_block", RawReinforcedIronBlock.INSTANCE);
         registerBlock("reinforced_iron_block", ReinforcedIronBlock.INSTANCE);
 
-        Logger.loaded(Blocks.class.getName());
+        Logger.loaded(Blocks.class.getSimpleName());
     }
 
 }
