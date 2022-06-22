@@ -2,47 +2,47 @@ package com.examplemod.block.reinforcedIron;
 
 import java.util.List;
 import java.util.Random;
-
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.block.ShapeContext;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.entity.Entity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class HeatedReinforcedIronBlock extends Block {
 
-    private float CHANCE_SHOW_PARTICLE = 0.5f;
+    private MinecraftClient CLIENT;
+    private final float CHANCE_SHOW_PARTICLE = 0.5f;
     public static final HeatedReinforcedIronBlock INSTANCE = new HeatedReinforcedIronBlock(FabricBlockSettings.of(Material.METAL).strength(6f).luminance(12).requiresTool());
     
     public HeatedReinforcedIronBlock(Settings settings) {
         super(settings);
+
+        CLIENT = MinecraftClient.getInstance();
     }
 
-    // not working
     @Override
-	// @SuppressWarnings("deprecation")
-    public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-        // super.onEntityCollision(state, world, pos, entity);
+	@SuppressWarnings("deprecation")
+    public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        
+        if (CLIENT.player != null) {
+            CLIENT.player.setOnFireFor(1);
+            CLIENT.player.damage(DamageSource.LAVA, 0.5f);
+        }
 
-        entity.setOnFireFor(1);
+        return super.getCollisionShape(state, world, pos, context);
     }
-
-    // remove when method upperside work
-    // @Override
-    // public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
-    //     entity.setOnFireFor(1);
-
-    //     super.onSteppedOn(world, pos, state, entity);
-    // }
     
     @Override
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
